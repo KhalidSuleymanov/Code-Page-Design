@@ -1,0 +1,658 @@
+/* Top-bar navbar class start */
+.top-bar {
+    background-color: white;
+    padding-top: 1px;
+}
+
+.paragraf {
+    font-size: 15px;
+    padding-top: 1px;
+    margin-left: 15px;
+}
+
+/* İcon and Links start */
+.icon {
+    font-size: 20px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+}
+
+.icon a {
+    color: #000;
+}
+
+.search {
+    margin-right: 250px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/* İcon and Links start */
+/* Top-bar navbar class start */
+
+/* first image class start */
+.image {
+    background-image: url(./Image/Code2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+/* navbar start */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.image .navbar li {
+    display: flex;
+    color: #fff;
+    display: inline-block;
+    margin: 1rem 0 0 5rem;
+    justify-content: center;
+    font-size: larger;
+}
+
+/* navbar ends */
+/* first image class end */
+/* Button class start */
+button {
+    background-color: #f9dd00;
+    padding: 5px 15px;
+    border: none;
+}
+
+.button p{
+    font-size: large;
+}
+
+/* Button class end */
+
+/* Text style and cards class start */
+/* First text start */
+.text p {
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text :first-child {
+    font-size: 70px;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+
+.second-text {
+    font-size: 45px;
+    margin-left: 175px;
+}
+
+.first-text {
+    margin-top: 30px;
+    margin-left: 175px;
+    font-size: 20px;
+}
+
+.second-text1 {
+    margin-left: 175px;
+    font-size: 20px;
+}
+
+/* First text start */
+
+/* Cards class start */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 150px;
+    padding-top: 20px;
+}
+
+/* First card started */
+.card1 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card1:hover {
+    background-color: purple;
+    transform: scale(1.1)
+}
+
+
+/* First card end */
+/* Second card started */
+.card2 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card2:hover {
+    background-color: yellow;
+    transform: scale(1.1)
+}
+
+/* Second card end */
+
+/* Third card started */
+.card3 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card3:hover {
+    background-color: green;
+    transform: scale(1.1)
+}
+
+/* Third card end */
+
+/* Fourth card started */
+.card4 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card4:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+/* Fourth card end */
+
+
+.services {
+    display: flex;
+}
+
+.first-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.second-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.third-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.fourth-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Cards class end */
+
+/* Text style and cards class end */
+
+/* Next text class start */
+.third-text {
+    padding: 8rem 0 0 11rem;
+    font-size: 50px;
+}
+
+.line1 {
+    padding-top: 1.5rem;
+    padding-left: 11rem;
+}
+
+.paragraf2 {
+    width: 50%;
+    padding-left: 11rem;
+    font-size: larger;
+    padding-top: 1.5rem;
+}
+
+/* Next text class end */
+
+/* Second cards and information class started */
+
+/* First image and information class started */
+.image-upper {
+    display: flex;
+}
+
+.image-txt1 {
+    display: flex;
+    border: solid 1px #fff;
+    padding: 5rem;
+}
+
+.image-txt1 img {
+    width: 230px;
+    height: 230px;
+}
+
+.img1-right1 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img1-right1 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img1-right1 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* First image and information class end */
+
+/* Second image and information class started */
+.image-txt2 {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.image-txt2 img {
+    width: 230px;
+    height: 230px;
+}
+
+.img2-right2 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img2-right2 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img2-right2 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* Second image and information class end */
+.image-lower {
+    display: flex;
+}
+
+/* Third image and information class started */
+.image-txt3 {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.image3-left3 img {
+    width: 230px;
+    height: 230px;
+}
+
+.img3-right3 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img3-right3 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img3-right3 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* Third image and information class end  */
+
+/* Fourth image and information class started  */
+.image-txt4 {
+    display: flex;
+    margin-right: 4rem;
+}
+
+.image4-left4 img {
+    width: 230px;
+    height: 230px;
+    margin-left: 19px;
+}
+
+.img4-right4 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img4-right4 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img4-right4 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* Fourth image and information class end */
+
+/* Second cards and information class end */
+
+.image-third {
+    background-image: url(./Image/code-academy-students-bg.jpeg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.image-third::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.text-in-photo {
+    padding-top: 5rem;
+    position: relative;
+}
+
+.text-in-photo p {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-left: 55px;
+    position: relative;
+}
+
+.info-h1 {
+    margin-right: 100px;
+}
+
+.info h1 {
+    color: #fff;
+    margin-top: 7rem;
+    font-size: 60px;
+}
+
+.info p {
+    color: #fff;
+    font-size: 30px;
+    width: 50%;
+}
+
+.graduet {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.graduet p {
+    margin-right: 15px;
+    font-size: 50px;
+    color: #4a4a4a;
+}
+
+.graduet h3 {
+    font-size: 50px;
+    color: #4a4a4a;
+}
+
+.grad {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.grad h3 {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.grad img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.grad p {
+    margin-left: 1rem;
+    color: #4a4a4a;
+}
+
+.reel1 {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.reel1 p {
+    font-size: x-large;
+    color: #4a4a4a;
+}
+
+.type {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.part p {
+    font-size: 50px;
+    color: #4a4a4a;
+}
+
+.part h1 {
+    font-size: 60px;
+    color: #4a4a4a;
+}
+
+.part1 {
+    margin-top: 5rem;
+}
+
+.part1 p {
+    color: #4a4a4a;
+    font-size: x-large;
+}
+
+.line3 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.line3 img {
+    width: 10rem;
+}
+
+.company {
+    text-align: center;
+}
+
+.company img {
+    width: 120px;
+    height: 40px;
+    margin: 2rem 2rem 0 2rem;
+}
+
+.grauded {
+    text-align: center;
+    margin-top: 5rem;
+   
+}
+
+.grauded h2 {
+    font-size: 50px;
+    color: #4a4a4a;
+}
+
+.grauded p {
+    font-size: 60px;
+    color: #4a4a4a;
+}
+
+.students {
+    text-align: center;
+}
+
+.bottom-nav {
+    display: flex;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    z-index: 5;
+}
+
+.bottom-nav-left {
+    margin: 5rem 5rem 3rem 10rem;
+
+}
+
+.bottom-nav-left p {
+    font-size: 50px;
+}
+
+.bottom-nav-left h3 {
+    font-size: 45px;
+    margin-left: 3rem;
+    line-height: 1.5rem;
+}
+
+.bottom-nav-left article {
+    padding-top: 2rem;
+    font-size: larger;
+    margin-left: 3rem;
+}
+
+.bottom-nav-right {
+    margin: 5rem 5rem 3rem 1rem;
+    width: 450px;
+
+}
+
+.phone>select {
+    width: 20%;
+    border: 0;
+}
+
+.phone>input {
+    width: 57%;
+    border: 0;
+}
+
+.education>select {
+    width: 78%;
+    border: 0;
+}
+
+.btn>button {
+    padding: 15px 135px;
+}
+
+input {
+    height: 50px;
+}
+
+select {
+    height: 50px;
+}
+
+.fulname {
+    margin-bottom: 5px;
+}
+
+.fulname>input {
+    width: 38.5%;
+
+    border: 0;
+}
+
+.phone {
+    margin-bottom: 5px;
+}
+
+.education {
+    margin-bottom: 5px;
+}
+
+.end-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px 0 0px;
+    margin-top: 150px;
+    margin-bottom: 55px;
+
+}
+
+.end-nav-center-section {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    background-color: #f4f5f8;
+    padding: 40px 0;
+    color: #4A4A4A;
+}
+
+.ends-nav-section-sencer {
+    display: flex;
+}
+
+.end-left-section ul li,
+.end-center-nav ul li,
+.end-right-section ul li {
+    margin-top: 13px;
+}
+
+.end-left-section,
+.end-center-nav,
+.end-right-section {
+    margin-right: 60px;
+}
+
+.ends-nav-section-sencer {
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parallax{
+    position: sticky;
+    bottom: 0.25rem;
+    width: 100%;
+    z-index: 1;
+}
